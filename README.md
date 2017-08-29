@@ -1,4 +1,4 @@
-# manage-system #
+# test #
 基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案。[线上地址](http://work.omwteam.com/)
 
 [English document](https://github.com/lin-xin/manage-system/blob/master/README_EN.md)
@@ -85,7 +85,7 @@ vue.js封装sChart.js的图表组件。访问地址：[vue-schart](https://githu
 		></schart>
     </div>
 </template>
-	
+
 <script>
     import Schart from 'vue-schart';        // 导入Schart组件
     export default {
@@ -152,13 +152,13 @@ Vue.js的Markdown Editor组件。访问地址：[Vue-SimpleMDE](https://github.c
 第二步：删除引入该组件的文件。在目录 src/components/page/ 删除 VueTable.vue 文件。
 
 第三步：删除该页面的入口。在目录 src/components/common/Sidebar.vue 中，找到该入口，删除下面这段代码。
-	
+
 ```HTML
 <el-menu-item index="vuetable">Vue表格组件</el-menu-item>
 ```
 
 第四步：卸载该组件。执行以下命令：
-	
+
 	npm un vue-datasource -S
 
 完成。
